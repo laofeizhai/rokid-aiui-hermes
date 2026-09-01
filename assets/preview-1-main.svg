@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960" font-family="WenQuanYi Zen Hei, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#131a21"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#40FF5E"/>
+      <stop offset="1" stop-color="#1f9d3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="960" fill="url(#bg)"/>
+
+  <!-- HUD 卡片 -->
+  <rect x="400" y="150" width="480" height="640" rx="14" fill="#12181f" stroke="#3a3a3a" stroke-width="3"/>
+  <rect x="400" y="150" width="480" height="10" rx="5" fill="url(#ring)"/>
+
+  <!-- 头 -->
+  <text x="640" y="215" font-size="30" font-weight="bold" text-anchor="middle" fill="#e6edf3">Hermes · 睿</text>
+  <text x="800" y="215" font-size="18" text-anchor="middle" fill="#40FF5E">● 待命</text>
+  <text x="640" y="255" font-size="16" text-anchor="middle" fill="#9aa5b1">deepseek-v4-flash-vision-exp</text>
+
+  <!-- 欢迎 -->
+  <text x="640" y="340" font-size="26" font-weight="bold" text-anchor="middle" fill="#ffffff">你好，我是睿</text>
+  <text x="640" y="385" font-size="19" text-anchor="middle" fill="#c9d1d9">你的随身智能助手 —— 听得见、看得见</text>
+  <text x="640" y="420" font-size="15" text-anchor="middle" fill="#8b949e">文字 / 语音 / 拍照识图 / 翻译 / 提词</text>
+
+  <!-- 按钮 -->
+  <g font-size="17">
+    <rect x="425" y="470" width="105" height="70" rx="8" fill="#1a2230" stroke="#3a3a3a"/><text x="477" y="512" text-anchor="middle" fill="#e6edf3">拍照识图</text>
+    <rect x="545" y="470" width="95" height="70" rx="8" fill="#1a2230" stroke="#3a3a3a"/><text x="592" y="512" text-anchor="middle" fill="#e6edf3">语音</text>
+    <rect x="655" y="470" width="95" height="70" rx="8" fill="#1a2230" stroke="#3a3a3a"/><text x="702" y="512" text-anchor="middle" fill="#e6edf3">翻译</text>
+    <rect x="765" y="470" width="90" height="70" rx="8" fill="#1a2230" stroke="#3a3a3a"/><text x="810" y="512" text-anchor="middle" fill="#e6edf3">提词</text>
+  </g>
+
+  <!-- 输入 -->
+  <rect x="425" y="580" width="330" height="60" rx="8" fill="#1a2230" stroke="#3a3a3a"/>
+  <text x="440" y="617" font-size="17" fill="#5b6472">输入问题…</text>
+  <rect x="770" y="580" width="85" height="60" rx="8" fill="#40FF5E"/>
+  <text x="812" y="617" font-size="18" font-weight="bold" text-anchor="middle" fill="#000">发送</text>
+
+  <text x="640" y="860" font-size="15" text-anchor="middle" fill="#6b7580">运行在 Rokid Glasses · HUD 抬腕即视</text>
+</svg>

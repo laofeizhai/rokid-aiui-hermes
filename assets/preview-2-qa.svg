@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960" font-family="WenQuanYi Zen Hei, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#131a21"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#40FF5E"/><stop offset="1" stop-color="#1f9d3a"/></linearGradient>
+  </defs>
+  <rect width="1280" height="960" fill="url(#bg)"/>
+  <rect x="280" y="120" width="720" height="720" rx="14" fill="#12181f" stroke="#3a3a3a" stroke-width="3"/>
+  <rect x="280" y="120" width="720" height="10" rx="5" fill="url(#ring)"/>
+  <text x="640" y="185" font-size="28" font-weight="bold" text-anchor="middle" fill="#e6edf3">文字问答</text>
+
+  <!-- 用户问题 -->
+  <rect x="330" y="230" width="620" height="90" rx="10" fill="#1c6e2f" stroke="#40FF5E" stroke-width="1.5"/>
+  <text x="355" y="270" font-size="15" fill="#bfe9c8">你</text>
+  <text x="355" y="300" font-size="22" fill="#ffffff">今天廊坊的天气适合跑步吗？</text>
+
+  <!-- 睿回答 -->
+  <rect x="330" y="360" width="620" height="330" rx="10" fill="#161e28" stroke="#3a3a3a"/>
+  <text x="355" y="400" font-size="15" fill="#40FF5E">睿</text>
+  <text x="355" y="435" font-size="20" fill="#e6edf3">查询到了：廊坊今天晴，气温 22–30℃。</text>
+  <text x="355" y="472" font-size="20" fill="#e6edf3">建议傍晚（16:30 后）去，避开高温。</text>
+  <text x="355" y="509" font-size="20" fill="#c9d1d9">→ 已经帮你记下，想让我加进今日安排吗？</text>
+  <text x="355" y="600" font-size="16" fill="#5b6472">via Hermes 桥接端点 · deepseek-v4-flash-vision-exp</text>
+
+  <text x="640" y="880" font-size="15" text-anchor="middle" fill="#6b7580">文字 / 语音提问 → 睿 → 答案 + 朗读</text>
+</svg>
